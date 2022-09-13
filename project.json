@@ -1,11 +1,12 @@
 {
-  "name": "POC5_Revisal",
-  "description": "Revisal project for registering comapny and it's employees.",
+  "name": "POC6_Revisal",
+  "description": "Revisal project for registering new companies and it's employees.",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.12.3]",
     "UiPath.Mail.Activities": "[1.15.2]",
     "UiPath.System.Activities": "[22.4.4]",
+    "UiPath.Testing.Activities": "[22.4.3]",
     "UiPath.UIAutomation.Activities": "[22.4.7]"
   },
   "webServices": [],
@@ -39,14 +40,100 @@
     "processOptions": {
       "ignoredFiles": []
     },
-    "fileInfoCollection": [],
-    "modernBehavior": true
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "fab80719-c597-446d-be28-c284396921dc",
+        "dataVariationFilePath": ".variations\\Tests_Tests.json",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\GeneralTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "5bc918d1-afd9-42f8-af8e-acb935e829e7",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\GetTransactionDataTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "c1951013-24f8-4354-b57b-b248b36b4a83",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\InitAllApplicationsTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "86b71278-5638-4a38-b594-c5db0d03e896",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\InitAllSettingsTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "cd48cea3-0391-4f62-b695-04ad1175cb91",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\MainTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e01b52ab-b8aa-4617-a39a-c1622748d418",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\ProcessTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e3ab6fa0-a31f-417c-8b8e-f7f4b0c8504a",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\WorkflowTestCaseTemplate.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "388ea13b-66b8-4ad0-89e5-ac745ae3b0cb",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\testcases\\TestCase_EmployeeList_Read.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "ca0593e8-ab33-48f0-9e78-13882f782fbf",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\testcases\\TestCase_GenerateEmailAddress.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "337670dc-a520-46fc-be42-b7dab8261c91",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\testcases\\TestCase_Revisal_OpenApp.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "31637990-8b3d-4036-9b84-a64290210142",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\testcases\\TestCase_Revisal_AddEmployerPage1.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "2ef1fb79-0e0c-4a89-bbe5-25e6df7fc1e8",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\testcases\\TestCase_Revisal_AddEmployeeFirstPage.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "9d8238f5-9ede-4440-a24a-54c71ea4c551",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\testcases\\TestCase_EmployeeList_Update.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "18520474-1472-4a37-a74e-adfa000d73e4",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\testcases\\TestCase_SendEmailWithUpdatedList.xaml"
+      }
+    ],
+    "modernBehavior": false
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "49b591ee-c941-47cf-95e2-b429fd809e8c",
+      "uniqueId": "ad5e079a-8aca-49da-9252-1fa541314491",
       "input": [],
       "output": []
     }
